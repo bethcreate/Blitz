@@ -1,0 +1,89 @@
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+container{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  width:max-content;
+}
+.card{
+  border: 1px solid black;
+  width: max-content;
+  text-align: center;
+  display: inline-block;
+  margin: 5px;
+}
+.card img{
+  width: 300px;
+  padding: 5px;
+}
+.title{
+  text-align: center;
+  font-weight:bold ;
+  margin:20px
+}
+button{
+  border: 2px solid floralwhite;
+  background: forestgreen;
+  color: #ccc;
+ place-items:centre;
+}
+button:hover{
+  box-shadow: 0 0 5px 5px goldenrod inset;
+}
+.cart{
+  width: 250px;
+  float: right;
+  text-align: center;
+  border: 1px solid black ;
+  overflow-y: scroll;
+  height: 100px;
+}
+.cartImg{
+  width: 200px;
+}
+
+.row a{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position:relative; top: -8px;
+
+}
+.column a{
+  background-color: palevioletred; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  position:relative; top: -8px;
+  border-radius: 5%;
+
+}
+.row{
+  text-align: center;
+}
+.column{
+  text-align: center;
+}
+
+
